@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.cabeceraFija{
+    position: sticky;
+    top: 0;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    z-index: 1000;
+}
+
+.menuNavegacion{
+    background-color: gray;
+    padding: 10px;
+}
+
+.menuNavegacion li {
+    display: inline;
+    margin: 0px 15px;
+}
+
+.menuNavegacion a {
+    color: white;
+    text-decoration: none;
+}
