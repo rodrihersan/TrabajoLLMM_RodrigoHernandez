@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+
 }
 
 .cabeceraFija{
@@ -25,4 +26,25 @@ body {
 .menuNavegacion a {
     color: white;
     text-decoration: none;
+}
+
+.publicidadLateralIzquierda{
+    float: left;
+    width: 11%;
+    height: 500px;
+    background-color: whitesmoke;
+    padding: 10px;
+}
+
+.contenedorPrincipal{
+    overflow: hidden;
+    width: 100%;
+}
+
+.publicidadLateralDerecha{
+    float: right;
+    width: 11%;
+    height: 500px;
+    background-color: whitesmoke;
+    padding: 10px;
 }
