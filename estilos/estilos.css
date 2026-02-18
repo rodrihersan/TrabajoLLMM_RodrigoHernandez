@@ -1,6 +1,5 @@
 body {
     font-family: Arial, sans-serif;
-
 }
 
 .cabeceraFija{
@@ -13,9 +12,21 @@ body {
     z-index: 1000;
 }
 
+.imgHeader{
+    position: sticky;
+    padding: 20px;
+    z-index: 1000;
+    height: 135px;
+}
+
+.imgHeader:hover {
+    transform: scale(1.3);
+}
+
 .menuNavegacion{
     background-color: gray;
     padding: 10px;
+    text-align: center;
 }
 
 .menuNavegacion li {
@@ -28,23 +39,47 @@ body {
     text-decoration: none;
 }
 
-.publicidadLateralIzquierda{
-    float: left;
-    width: 11%;
-    height: 500px;
-    background-color: whitesmoke;
-    padding: 10px;
-}
-
 .contenedorPrincipal{
     overflow: hidden;
     width: 100%;
 }
 
-.publicidadLateralDerecha{
-    float: right;
+.publicidadLateral{
     width: 11%;
-    height: 500px;
+    height: 1000px;
     background-color: whitesmoke;
     padding: 10px;
+    margin-top: 25px;
+}
+
+.seccionCentral{
+    float: left;
+    background-color: white;
+    width: 75%;
+    text-align: center;
+    border: 2px solid lightslategray;
+    margin-top: 25px;
+    margin-left: 6px;
+    padding-top: 6px;
+}
+
+.tituloMain{
+    text-align: center;
+}
+
+.Izquierda{
+    float: left;
+}
+
+.Derecha{
+    float: right;
+}
+
+.pieFijo{
+    position: sticky;
+    bottom: 0;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
 }
