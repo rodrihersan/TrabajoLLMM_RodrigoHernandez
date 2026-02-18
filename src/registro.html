@@ -6,47 +6,104 @@
     <meta name="author" content="Rodrigo Hernandez Sanchez">
     <meta name="description" content="Tienda online de venta deportiva y noticias running">
     <meta name="keywords" content="Ropa,Deportiva,Running,Online">
-    <title>Find Your Top - Tienda de Ropa Online</title>
+    <title>Registro - Find Your Top - Tienda de Ropa Online</title>
     <link rel="stylesheet" href="../estilos/estilos.css">
-    <link rel="icon" type="image/png" href="../imagenes/favicon-256x256.png">
+    <link rel="icon" type="image/png" href="../imagenes/logo/favicon-256x256.png">
 </head>
 
 <body>
-
     <header class="cabeceraFija">
-        <img class="imgHeader" src="../imagenes/favicon-256x256.png" alt="logoFYT">
         <h1>FIND YOUR TOP</h1>
         <p>Ven y descubre el nuevo catálogo deportivo de la temporada 2025/2026</p>
     </header>
 
-    <div class="contenedorPrincipal">
-        <main class="seccionCentral">
-            <iframe src="https://www.youtube.com/watch?v=ryTvowmJGPM" width="400px" height="200px" title="videoMotivacional1"></iframe>
-            <h2 class="tituloMain">Catálogo nueva temporada 2025/2026</h2>
-            <br>
-            <h3>Camisetas</h3>
-            <h3>Pantalones</h3>
-            <h3>Zapatillas</h3>
-            <h3>Complementos</h3>
-            <h3>Camisetas</h3>
-            <h3>Pantalones</h3>
-            <h3>Zapatillas</h3>
-            <h3>Complementos</h3>
-            <h3>Camisetas</h3>
-            <h3>Pantalones</h3>
-            <h3>Zapatillas</h3>
-            <h3>Complementos</h3>
-            <h3>Camisetas</h3>
-            <h3>Pantalones</h3>
-            <h3>Zapatillas</h3>
-            <h3>Complementos</h3>
-        </main>
+    <div class="contenedorFormulario">
+        <form action="main.html" method="get">
+            <fieldset>
+            <legend>Formulario de Alta</legend>
+                <p>
+                    <label for="nombre">Nombre:</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                </p>
+                
+                <p>
+                    <label for="apellidos">Apellidos:</label>
+                    <input type="text" id="apellidos" name="apellidos" required>
+                </p>
+
+                <p>
+                    <label for="dni">DNI:</label>
+                    <input type="text" id="dni" name="dni" pattern="[0-9]{8}[A-Z]" title="8 números y una letra mayúscula" required>
+                </p>
+
+                <p>
+                    <label for="dir">Dirección:</label>
+                    <input type="text" id="dir" name="dir" pattern="C\/[a-zA-ZáéíóúÁÉÍÓÚ\s]+ Nº[0-9]+ P[a-zA-Z0-9]+" title="Formato: C/Calle Nº1 P2A" required>
+                </p>
+
+                <p>
+                    <label for="ciudad">Ciudad:</label>
+                    <input type="text" id="ciudad" name="ciudad" required>
+                </p>
+                <p>
+                    <label for="cp">Código Postal:</label>
+                    <input type="text" id="cp" name="cp" list="valoresCP" pattern="[0-9]{5}" title="5 dígitos" required>
+                    <datalist id="valoresCP">
+                        <option value="37001"><option value="37002"><option value="37003"><option value="37004"><option value="37005">
+                    </datalist>
+                </p>
+                <p>
+                    <label for="pais">País:</label>
+                    <input type="text" id="pais" name="pais" required>
+                </p>
+
+                <p>
+                    <label for="nacimiento">Fecha de nacimiento:</label>
+                    <input type="date" id="nacimiento" name="nacimiento">
+                </p>
+                <p>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="correo@correo.es">
+                </p>
+
+                <p>
+                    <label for="pass">Contraseña:</label>
+                    <input type="text" id="pass" name="pass" pattern="[a-zA-Z]{1,7}_[a-zA-Z0-9]{5}&[0-9]{2}" title="Máx7Letras_5LetrasOnum&2num" required>
+                </p>
+
+                <p>
+                    <label>Sexo:</label>
+                    <input type="radio" name="sexo" value="H" required> H
+                    <input type="radio" name="sexo" value="M"> M
+                </p>
+
+                <p>
+                    <label for="aficiones">Aficiones:</label>
+                    <input type="text" id="aficiones" name="aficiones" list="listaAficiones" required>
+                    <datalist>
+                        <option value="Running">
+                        <option value="Trail">
+                        <option value="Ciclismo">
+                        <option value="Natación">
+                    </datalist>
+                </p>
+
+                <p>
+                    <label for="foto">Foto de perfil:</label>
+                    <input type="file" id="foto" name="foto">
+                </p>
+
+                <div class="botones">
+                    <button type="reset">Borrar</button>
+                    <button type="submit">Enviar</button>
+                    <a href="../src/main.html"><button type="button">Volver</button></a>
+                </div>
+            </fieldset>
+        </form>
     </div>
 
     <footer class="pieFijo">
-        <p>Ubicación: Paseo Canalejas 23, Salamanca | Contacto: FindYourTop@contacto.es | Telefono: 923 12 31 23</p>
-        <p>Nuestras redes sociales: </p>
+        <p>Ubicación: Paseo Canalejas 23, Salamanca | Contacto: FindYourTop@contacto.es</p>
     </footer>
-
 </body>
 </html>
