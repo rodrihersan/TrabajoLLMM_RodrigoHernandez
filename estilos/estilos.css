@@ -1,176 +1,26 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     font-family: Arial, sans-serif;
 }
 
-.cabeceraFija{
+.cabeceraFija {
     position: sticky;
     top: 0;
     background-color: black;
     color: white;
-    padding: 20px;
+    padding: 5px;
     text-align: center;
     z-index: 1000;
 }
 
-.imgHeader{
-    padding: 30px;
-    height: 135px;
-    transition: transform 0.6s; 
-}
-
-.imgHeader:hover {
-    transform: scale(1.1);
-}
-
-.iIzquierda{
-    float: left;
-    margin-left: 20px;
-}
-
-.iDerecha{
-    float: right;
-    margin-right: 20px;
-}
-
-.menuNavegacion{
-    background-color: gray;
-    padding: 10px;
-    text-align: center;
-}
-
-.menuNavegacion li {
-    display: inline;
-    margin: 0px 15px;
-}
-
-.menuNavegacion a {
-    color: white;
-    text-decoration: none;
-}
-
-.contenedorPrincipal{
-    overflow: hidden;
-    width: 100%;
-}
-
-.publicidadLateral{
-    width: 11%;
-    background-color: whitesmoke;
-    border: 2px solid lightslategray;
-    padding: 10px;
-    margin-top: 25px;
-    border-right: 1px solid #ccc;
-    position: fixed;
-
-}
-
-.imgPublicidad {
-    width: 100%;
-    display: block;
-    margin: 10px 0;
-}
-
-.seccionCentral{
-    float: left;
-    background-color: white;
-    width: 75%;
-    text-align: center;
-    border: 2px solid lightslategray;
-    border-bottom: none;
-    margin-top: 25px;
-    margin-left: 6px;
-    padding-top: 6px;
-}
-
-.tituloMain{
-    text-align: center;
-}
-
-.listaRopa{
-    list-style-type: none;      
-}
-
-.ropaPadding{
-    border: 1px solid black;
-    padding: 40px;
-    margin: 0px 5px;
-}
-
-.Izquierda{
-    float: left;
-}
-
-.Derecha{
-    float: right;
-}
-
-.preFooter {
-    clear: both;
-    background-color: #f0f0f0;
-    padding: 30px;
-    overflow: hidden;
-    border: 2px solid lightslategray;
-}
-
-.columnaPre {
-    float: left;
-    width: 25%;
-    text-align: center;
-    color: black;
-}
-
-.columnaPre a {
-    text-decoration: none;
-    color: black;
-}
-
-.pieFijo{
+.pieFijo {
     position: sticky;
-    bottom: 0px;
+    bottom: 0;
     background-color: black;
     color: white;
-    padding: 15px;
+    padding: 5px;
     text-align: center;
-}
-
-/*------------------------------------------------------
-                Estilos registro.html
-------------------------------------------------------*/
-.contenedorFormulario {
-    width: 600px;         
-    margin: 40px auto;    
-    background-color: #f9f9f9;
-    padding: 30px;
-    border: 1px solid black;
-    text-align: left;  
-}
-
-.contenedorFormulario label {
-    display: inline-block;
-    width: 160px;
-    margin-bottom: 10px;
-}
-
-.contenedorFormulario input {
-    margin-bottom: 15px; 
-}
-
-#aficiones:focus {
-    background-color: #fff9c4;
-}
-
-input:focus{
-    background-color:lightcoral;
-}
-
-.botones {
-    margin-top: 20px;
-    text-align: center;
-    padding-top: 20px;
-    border-top: 1px solid #ccc;
-}
-
-.botones button {
-    padding: 10px;
-    margin: 0px 5px;
 }

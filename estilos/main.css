@@ -1,0 +1,166 @@
+.imgHeader {
+    padding: 30px;
+    height: 162px;
+    transition: transform 0.6s;
+}
+
+.imgHeader:hover {
+    transform: scale(2);
+}
+
+.iIzquierda {
+    float: left;
+    margin-left: 0px;
+}
+
+.iDerecha {
+    float: right;
+    margin-right: 0px;
+}
+
+.menuNavegacion {
+    background-color: gray;
+    padding: 5px;
+    text-align: center;
+}
+
+.menuNavegacion li {
+    display: inline;
+    margin: 15px;
+    position: relative;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    left: 0;
+    background-color: gray;
+    z-index: 1;
+    padding: 0;
+    border: 2px solid lightslategray;
+    text-align: left;
+}
+
+.submenu li {
+    display: block;
+}
+
+.menuNavegacion li:hover .submenu {
+    display: block;
+}
+
+.menuNavegacion a {
+    color: white;
+    text-decoration: none;
+}
+
+.contenedorPrincipal {
+    overflow: hidden;
+    margin-top: 20px;
+}
+
+.publicidadLateral {
+    position: absolute;
+    width: 11%;
+    height: 1950px;
+    background-color: whitesmoke;
+    border: 1px solid lightslategray;
+    padding: 10px;
+}
+
+.Izquierda {
+    left: 8px;
+}
+
+.Derecha {
+    right: 8px;
+}
+
+.imgPublicidad {
+    width: 100%;
+}
+
+.seccionCentral {
+    float: left;
+    width: 78%;
+    margin-left: 11%;
+    background-color: white;
+    border: 1px solid lightslategray;
+    padding: 20px;
+    text-align: center;
+}
+
+.infoTienda {
+    text-align: justify;
+    padding: 20px 40px;
+    line-height: 1.8;
+    color: rgb(59, 59, 59);
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.tituloMain {
+    text-align: center;
+}
+
+.listaRopa {
+    list-style-type: none;
+}
+
+.ropaPadding {
+    border: 1px solid black;
+    padding: 40px;
+    margin: 0 5px;
+}
+
+.preFooter {
+    clear: both;
+    background-color: #f0f0f0;
+    padding: 30px;
+    overflow: hidden;
+    border: 1px solid lightslategray;
+}
+
+.columnaPre {
+    float: left;
+    width: 25%;
+    text-align: center;
+    color: black;
+}
+
+.columnaPre a {
+    text-decoration: none;
+    color: black;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.contenedorFoto {
+    position: relative;
+    display: inline-block;
+    transition: filter 0.5s;
+}
+
+.precio {
+    position: absolute;
+    bottom: 45%;              
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    color: white;
+    padding: 5px 15px;
+    opacity: 0;
+    transition: opacity 0.5s;
+    pointer-events: none;
+    white-space: nowrap;  
+}
+
+.contenedorFoto:hover .precio {
+    opacity: 1;
+}
+
+.contenedorFoto:hover .ropaPadding {
+    filter: brightness(50%);
+}

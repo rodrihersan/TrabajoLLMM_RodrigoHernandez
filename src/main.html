@@ -8,6 +8,7 @@
     <meta name="keywords" content="Ropa,Deportiva,Running,Online">
     <title>Find Your Top - Tienda de Ropa Online</title>
     <link rel="stylesheet" href="../estilos/estilos.css">
+    <link rel="stylesheet" href="../estilos/main.css">
     <link rel="icon" type="image/png" href="../imagenes/logo/favicon-256x256.png">
 </head>
 
@@ -20,9 +21,21 @@
 
     <nav class="menuNavegacion">
         <ul>
-            <li><a href="registro.html">Crear Cuenta / Alta</a></li>
+            <li>
+                <a href="registro.html">Crear Cuenta / Alta</a>
+
+                <ul class="submenu">
+                    <li><a href="registro.html">1.Registro nuevo</a></li>
+                    <li><a href="registro.html">2.Iniciar sesión</a></li>
+                    <li><a href="registro.html">3.Recuperar contraseña</a></li>
+                </ul>
+
+            </li>
+
             <li><a href="https://www.roadrunningreview.com/" target="_blank">Road-Running</a></li>
+
             <li><a href="https://www.instagram.com/pitufollow/?hl=es" target="_blank">Pitufollow</a></li>
+            
             <li><a href="noticias.html">Blog de Noticias</a></li>
         </ul>
     </nav>
@@ -35,55 +48,116 @@
 
         <main class="seccionCentral">
 
-            <div class="elementosMultimedia">
+            <div>
                 <img class="imgHeader iIzquierda" src="../imagenes/logo/favicon-256x256.png" alt="logoFYT">
                 <iframe src="https://www.youtube.com/embed/5NCw-YQS79s?autoplay=1&mute=1&loop=1&playlist=5NCw-YQS79s" width="350px" height="197px" title="videoMotivacional1"></iframe>
                 <img class="imgHeader iDerecha" src="../imagenes/logo/favicon-256x256.png" alt="logoFYT">
             </div>
 
             <h2 class="tituloMain">Catálogo nueva temporada 2025/2026</h2>
+
+            <section class="infoTienda">
+                <p>Bienvenido a <strong>Find Your Top</strong>, tu tienda especializada en ropa y equipamiento deportivo para running y trail. Aquí encontrarás todo lo que necesitas para rendir al máximo, desde camisetas técnicas hasta zapatillas de alta competición.</p>
+                <p>Nuestra selección incluye las mejores marcas del mercado como <strong>Adidas</strong> y <strong>Nike</strong>, con materiales transpirables y de alto rendimiento pensados para deportistas exigentes.</p>
+                <p>Descubre nuestra colección de la temporada 2025/2026, diseñada para superar tus límites tanto en asfalto como en montaña.</p>
+            </section>
             
             <h3 id="anclaCamisetaAdidas">Camisetas Adidas</h3>
                 <ul class="listaRopa">
                     <li>
-                        <img class="ropaPadding" src="../imagenes/ropaPrincipal/adidas/camisetas/camiseta adidas1.jfif" alt="camisetaAdidas1" width="200px">
-                        <img class="ropaPadding" src="../imagenes/ropaPrincipal/adidas/camisetas/camisetaadidas2.jfif" alt="camisetaadidas2" width="200px">
-                        <img class="ropaPadding" src="../imagenes/ropaPrincipal/adidas/camisetas/camisetasadidas3.jfif" alt="camisetasadidas3" width="200px">
+                        <div class="contenedorFoto">
+                            <img class="ropaPadding" src="../imagenes/ropaPrincipal/adidas/camisetas/camiseta adidas1.jfif" alt="camisetaAdidas1" width="200px">
+                            <span class="precio">29.99€</span>
+                        </div>
+
+                        <div class="contenedorFoto">    
+                            <img class="ropaPadding" src="../imagenes/ropaPrincipal/adidas/camisetas/camisetaadidas2.jfif" alt="camisetaadidas2" width="200px">
+                            <span class="precio">29.99€</span>
+                        </div>
+
+                        <div class="contenedorFoto">   
+                            <img class="ropaPadding" src="../imagenes/ropaPrincipal/adidas/camisetas/camisetasadidas3.jfif" alt="camisetasadidas3" width="200px">
+                            <span class="precio">39.99€</span>
+                        </div>
                     </li>
                 </ul>
 
             <h3 id="anclaPantalonesAdidas">Pantalones Adidas</h3>
                 <ul class="listaRopa">
                     <li>
-                        <img class="ropaPadding" src="../imagenes/ropaPrincipal/adidas/pantalones/pantalonadidas1.jpg" alt="pantalonAdidas1" width="200px">
-                        <img class="ropaPadding" src="../imagenes/ropaPrincipal/adidas/pantalones/padidas2.jfif" alt="pantalonAdidas2" width="200px">
-                        <img class="ropaPadding" src="../imagenes/ropaPrincipal/adidas/pantalones/padidas3.jfif" alt="pantalonAdidas3" width="200px">
+                        <div class="contenedorFoto">
+                            <img class="ropaPadding" src="../imagenes/ropaPrincipal/adidas/pantalones/pantalonadidas1.jpg" alt="pantalonAdidas1" width="200px">
+                            <span class="precio">39.99€</span>
+                        </div>
+
+                        <div class="contenedorFoto">    
+                            <img class="ropaPadding" src="../imagenes/ropaPrincipal/adidas/pantalones/padidas2.jfif" alt="pantalonAdidas2" width="200px">
+                            <span class="precio">29.99€</span>    
+                        </div>
+
+                        <div class="contenedorFoto">    
+                            <img class="ropaPadding" src="../imagenes/ropaPrincipal/adidas/pantalones/padidas3.jfif" alt="pantalonAdidas3" width="200px">
+                            <span class="precio">89.99€</span>
+                        </div>
                     </li>
                 </ul>
 
             <h3 id="anclaZapatillasAdidas">Zapatillas Adidas</h3>
                 <ul class="listaRopa">
                     <li>
-                        <img class="ropaPadding" src="../imagenes/ropaPrincipal/adidas/zapatillas/zapa1.webp" alt="zapatillasAdidas1" width="200px">
-                        <img class="ropaPadding" src="../imagenes/ropaPrincipal/adidas/zapatillas/zapa2.jfif" alt="zapatillasAdidas2" width="200px">
-                        <img class="ropaPadding" src="../imagenes/ropaPrincipal/adidas/zapatillas/zapa3.jfif" alt="zapatillasAdidas3" width="200px">
+                        <div class="contenedorFoto">
+                            <img class="ropaPadding" src="../imagenes/ropaPrincipal/adidas/zapatillas/zapa1.webp" alt="zapatillasAdidas1" width="200px">
+                            <span class="precio">249.99€</span>
+                        </div>
+
+                        <div class="contenedorFoto">
+                            <img class="ropaPadding" src="../imagenes/ropaPrincipal/adidas/zapatillas/zapa2.jfif" alt="zapatillasAdidas2" width="200px">
+                            <span class="precio">219.99€</span>
+                        </div>
+
+                        <div class="contenedorFoto">
+                            <img class="ropaPadding" src="../imagenes/ropaPrincipal/adidas/zapatillas/zapa3.jfif" alt="zapatillasAdidas3" width="200px">
+                            <span class="precio">109.99€</span>
+                        </div>
                     </li>
                 </ul>
 
             <h3 id="anclaAccesoriosAdidas">Accesorios Adidas</h3>
                 <ul class="listaRopa">
                     <li>
-                        <img class="ropaPadding" src="../imagenes/ropaPrincipal/adidas/accesorios/ace1.jfif" alt="accesoriosAdidas1" width="200px">
-                        <img class="ropaPadding" src="../imagenes/ropaPrincipal/adidas/accesorios/ace2.jfif" alt="accesoriosAdidas2" width="200px">
-                        <img class="ropaPadding" src="../imagenes/ropaPrincipal/adidas/accesorios/ace3.webp" alt="accesoriosAdidas3" width="200px">
+                        <div class="contenedorFoto">
+                            <img class="ropaPadding" src="../imagenes/ropaPrincipal/adidas/accesorios/ace1.jfif" alt="accesoriosAdidas1" width="200px">
+                            <span class="precio">19.99€</span>
+                        </div>
+
+                        <div class="contenedorFoto">
+                            <img class="ropaPadding" src="../imagenes/ropaPrincipal/adidas/accesorios/ace2.jfif" alt="accesoriosAdidas2" width="200px">
+                            <span class="precio">24.99€</span>
+                        </div>
+
+                        <div class="contenedorFoto">
+                            <img class="ropaPadding" src="../imagenes/ropaPrincipal/adidas/accesorios/ace3.webp" alt="accesoriosAdidas3" width="200px">
+                            <span class="precio">14.99€</span>
+                        </div>
                     </li>
                 </ul>
             <h3 id="anclaCamisetaNike">Camisetas Nike</h3>
                 <ul class="listaRopa">
                     <li>
-                        <img class="ropaPadding" src="../imagenes/ropaPrincipal/nike/camisetas/caminike1.jpg" alt="camisetaNike1" width="200px">
-                        <img class="ropaPadding" src="../imagenes/ropaPrincipal/nike/camisetas/caminike2.jfif" alt="camisetaNike2" width="200px">
-                        <img class="ropaPadding" src="../imagenes/ropaPrincipal/nike/camisetas/caminike3.jfif" alt="camisetaNike3" width="200px">
+                        <div class="contenedorFoto">
+                            <img class="ropaPadding" src="../imagenes/ropaPrincipal/nike/camisetas/caminike1.jpg" alt="camisetaNike1" width="200px">
+                            <span class="precio">99.99€</span>
+                        </div>
+
+                        <div class="contenedorFoto">
+                            <img class="ropaPadding" src="../imagenes/ropaPrincipal/nike/camisetas/caminike2.jfif" alt="camisetaNike2" width="200px">
+                            <span class="precio">34.99€</span>
+                        </div>
+
+                        <div class="contenedorFoto">
+                            <img class="ropaPadding" src="../imagenes/ropaPrincipal/nike/camisetas/caminike3.jfif" alt="camisetaNike3" width="200px">
+                            <span class="precio">79.99€</span>
+                        </div>
                     </li>
                 </ul>
         </main>
@@ -91,7 +165,7 @@
         <aside class="publicidadLateral Derecha">
             <img class="imgPublicidad" src="../imagenes/publicidad/publi.webp" alt="publicidad">
         </aside>
-
+        
     </div>
 
     <div class="preFooter">
@@ -109,6 +183,7 @@
             <p>Formas de pago seguras</p>
             <p>Precios y disponibilidad</p>
             <p>Envíos y devoluciones.</p>
+            <p><a href="tallas.html">Guía de Tallas</a></p>
         </div>
         <div class="columnaPre">
             <h4>SECCIONES DESTACADAS</h4>
