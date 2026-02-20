@@ -1,0 +1,36 @@
+Apuntes LLMM CSS
+
+Apuntes LLMM HTML
+
+https://www.mclibre.org/consultar/htmlcss/index.html
+
+https://www.w3schools.com/ (position, animaciones, transiciones etc)
+
+https://developer.mozilla.org/es/docs/Web/CSS/Reference/Properties/position
+
+https://www.eniun.com/atributos-propiedades-textos-css/
+
+Animaciones:  
+	- https://developer.mozilla.org/es/docs/Web/CSS/Guides/Animations/Using
+
+	- https://lenguajecss.com/animaciones/animaciones/que-son/
+
+	- https://lenguajecss.com/animaciones/animaciones/animaciones/
+
+	- https://lenguajecss.com/animaciones/animaciones/keyframes/
+
+	- https://es.javascript.info/css-animations
+
+Transiciones: 
+	- https://lenguajecss.com/animaciones/transiciones/que-son/
+
+	- https://lenguajecss.com/animaciones/transiciones/transition/	
+
+	- https://web.dev/learn/css/transitions?hl=es-419
+
+Display: 
+	- https://lenguajecss.com/css/layout/display-css/
+
+	- https://lenguajecss.com/css/layout/alinear-centrar-css/
+
+	 
