@@ -10,12 +10,10 @@
 
 .iIzquierda {
     float: left;
-    margin-left: 0px;
 }
 
 .iDerecha {
     float: right;
-    margin-right: 0px;
 }
 
 .menuNavegacion {
@@ -99,10 +97,6 @@
     margin-bottom: 20px;
 }
 
-.tituloMain {
-    text-align: center;
-}
-
 .listaRopa {
     list-style-type: none;
 }
@@ -133,9 +127,6 @@
     color: black;
 }
 
-.clearfix {
-    clear: both;
-}
 
 .contenedorFoto {
     position: relative;

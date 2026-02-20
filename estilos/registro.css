@@ -32,7 +32,16 @@ input:focus {
     border-top: 1px solid #ccc;
 }
 
-.botones button {
+.botones button, .botones a {
     padding: 10px;
     margin: 0 5px;
+    background-color: white;
+    border: 1px solid #ccc;
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+}
+
+.botones button:hover, .botones a:hover {
+    background-color: #e0e0e0;
 }

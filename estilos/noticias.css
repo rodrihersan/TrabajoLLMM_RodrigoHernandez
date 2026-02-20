@@ -1,6 +1,6 @@
 .contenedorNoticias {
     width: 70%;
-    margin: 30px auto;
+    margin: auto;
     padding: 20px;
 }
 
@@ -39,17 +39,17 @@
 }
 
 .tarjetaNoticia:hover {
-    box-shadow: 4px 4px 12px rgba(0,0,0,0.2);
+    box-shadow: 4px 4px 12px rgba(0,0,0,0.5);
     transform: translateY(-3px);
 }
 
 .tarjetaNoticia h3 {
     margin-bottom: 8px;
-    color: #111;
+    color: black;
 }
 
 .fechaNoticia {
-    color: #888;
+    color: #8b8888;
     margin-bottom: 10px;
     font-style: italic;
 }
